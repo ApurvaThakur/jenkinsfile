@@ -5,6 +5,7 @@ pipeline {
         stage('Download') {
             steps {
                 sh 'echo "artifact file" > generatedFile.txt'
+                sh 'echo "new file" > generatedFile.txt'
             }
         }
     }
